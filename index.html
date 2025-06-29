@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecWithHarsh — Cyber Threat Intelligence Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Matrix Background -->
+    <div id="matrix-bg" class="matrix-bg"></div>
+    
+    <!-- Particle System -->
+    <div id="particles" class="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">SecWithHarsh</span>
+                </div>
+
+                <div id="nav-menu" class="nav-menu">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="glitch" data-text="SecWithHarsh">SecWithHarsh</span>
+                </h1>
+                
+                <div class="hero-subtitle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="4,17 10,11 4,5"/>
+                        <line x1="12" y1="19" x2="20" y2="19"/>
+                    </svg>
+                    <span id="typing-text" class="typing-text"></span>
+                </div>
+                
+                <p class="hero-description">
+                    Security+ certified aspiring Cyber Threat Intelligence Analyst with a growing passion for 
+                    identifying, understanding, and communicating cyber threats. Currently exploring IoT security 
+                    and Python-based automation, with plans to shift into cloud security in the future.
+                </p>
+
+                <div class="hero-buttons">
+                    <button id="download-resume" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7,10 12,15 17,10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Download Resume
+                    </button>
+                    
+                    <button id="contact-btn" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0 1.1.9 2 2 2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        Contact Me
+                    </button>
+                </div>
+
+                <div class="code-block">
+                    <div class="code-content">
+                        <div class="code-line comment">// Threat Intelligence Profile</div>
+                        <div class="code-line">
+                            <span class="keyword">const</span> 
+                            <span class="variable">secWithHarsh</span> 
+                            <span class="operator">=</span> 
+                            <span class="bracket">{</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="property">specialization:</span> 
+                            <span class="string">"Cyber Threat Intelligence"</span><span class="operator">,</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="property">certification:</span> 
+                            <span class="string">"Security+"</span><span class="operator">,</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="property">current_focus:</span> 
+                            <span class="string">"IoT Security & Python"</span><span class="operator">,</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="property">future_path:</span> 
+                            <span class="string">"Cloud Security"</span>
+                        </div>
+                        <div class="code-line"><span class="bracket">}</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-visual">
+                    <div class="profile-circle">
+                        <div class="profile-inner">
+                            <svg width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="profile-badge">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <circle cx="12" cy="12" r="6"/>
+                                <circle cx="12" cy="12" r="2"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="focus-areas">
+                        <div class="focus-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #00d4ff;">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                            <span>Threat Intel</span>
+                        </div>
+                        <div class="focus-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #00ff41;">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            <span>IoT Security</span>
+                        </div>
+                        <div class="focus-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #fbbf24;">
+                                <polyline points="16,18 22,12 16,6"/>
+                                <polyline points="8,6 2,12 8,18"/>
+                            </svg>
+                            <span>Python</span>
+                        </div>
+                        <div class="focus-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #a855f7;">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="M21 21l-4.35-4.35"/>
+                            </svg>
+                            <span>OSINT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <div class="glass-card">
+                        <h3>Threat Intelligence Focus</h3>
+                        <p>
+                            I'm a Security+ certified aspiring Cyber Threat Intelligence Analyst with a growing 
+                            passion for identifying, understanding, and communicating cyber threats. Currently 
+                            exploring IoT security and Python-based automation, with plans to shift into cloud 
+                            security in the future.
+                        </p>
+                        <p>
+                            My focus is on developing skills in threat hunting, IOC analysis, and OSINT 
+                            techniques while building practical experience through hands-on projects and 
+                            continuous learning in the cybersecurity domain.
+                        </p>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3>Career Roadmap</h3>
+                        <div class="roadmap-items">
+                            <div class="roadmap-item">
+                                <div class="roadmap-dot blue"></div>
+                                <span>Master CTI fundamentals & MITRE ATT&CK</span>
+                            </div>
+                            <div class="roadmap-item">
+                                <div class="roadmap-dot green"></div>
+                                <span>Develop IoT security expertise</span>
+                            </div>
+                            <div class="roadmap-item">
+                                <div class="roadmap-dot yellow"></div>
+                                <span>Transition to cloud security specialization</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <div class="future-vision">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+                            </svg>
+                            <h4>Future Vision</h4>
+                        </div>
+                        <p>
+                            Building towards becoming a cloud security specialist, combining threat intelligence 
+                            expertise with cloud-native security practices and automation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Threat Intelligence</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Threat Hunting</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Indicators of Compromise (IOCs)</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MITRE ATT&CK</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Threat Analysis</span>
+                                <span>68%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="68"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon green">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="4,17 10,11 4,5"/>
+                                <line x1="12" y1="19" x2="20" y2="19"/>
+                            </svg>
+                        </div>
+                        <h3>Technical Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Linux</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Wireshark</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Network Analysis</span>
+                                <span>68%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="68"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="M21 21l-4.35-4.35"/>
+                            </svg>
+                        </div>
+                        <h3>Intelligence Gathering</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>OSINT</span>
+                                <span>72%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="72"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Data Collection</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Source Analysis</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Report Writing</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon orange">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3>Security Fundamentals</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Security+</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>IoT Security Basics</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Network Security</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Risk Assessment</span>
+                                <span>68%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="68"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification Section -->
+            <div class="certification-section">
+                <div class="section-header">
+                    <h3 class="section-title" style="font-size: 2rem;">Professional Certification</h3>
+                    <div class="section-divider small"></div>
+                    <p class="section-subtitle">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="4,17 10,11 4,5"/>
+                            <line x1="12" y1="19" x2="20" y2="19"/>
+                        </svg>
+                        Industry-recognized cybersecurity credential
+                    </p>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+
+                    <div class="cert-content">
+                        <h4>CompTIA Security+</h4>
+                        <div class="cert-issuer">CompTIA • 2024</div>
+                        <p>
+                            Foundational cybersecurity certification covering threat intelligence, 
+                            network security, risk management, and incident response fundamentals.
+                        </p>
+                        <button class="btn btn-cert btn-full">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <circle cx="12" cy="12" r="6"/>
+                                <circle cx="12" cy="12" r="2"/>
+                            </svg>
+                            View Credential
+                        </button>
+                    </div>
+
+                    <div class="cert-terminal">
+                        <div class="terminal-content">
+                            <div class="terminal-line green">root@cti:~$ verify_credential</div>
+                            <div class="terminal-line blue">Scanning CompTIA database...</div>
+                            <div class="terminal-line green">✓ Security+ Verified</div>
+                            <div class="terminal-line yellow" style="font-size: 0.75rem; margin-top: 0.5rem;">CTI Foundation: Complete</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learning Path -->
+            <div class="learning-path">
+                <h3>CTI Learning Path</h3>
+                <div class="learning-grid">
+                    <div class="learning-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        <span>Threat Hunting</span>
+                    </div>
+                    <div class="learning-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                            <circle cx="12" cy="12" r="2"/>
+                        </svg>
+                        <span>MITRE ATT&CK</span>
+                    </div>
+                    <div class="learning-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="M21 21l-4.35-4.35"/>
+                        </svg>
+                        <span>OSINT Tools</span>
+                    </div>
+                    <div class="learning-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="4,17 10,11 4,5"/>
+                            <line x1="12" y1="19" x2="20" y2="19"/>
+                        </svg>
+                        <span>Python CTI</span>
+                    </div>
+                </div>
+
+                <div class="future-track">
+                    <div class="future-header">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+                        </svg>
+                        <h4>Future: Cloud Security Track</h4>
+                    </div>
+                    <div class="future-items">
+                        <div class="future-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            <span>AWS Security</span>
+                        </div>
+                        <div class="future-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            <span>Azure Security</span>
+                        </div>
+                        <div class="future-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                            <span>Cloud CTI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects & Research</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+                                <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+                                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+                                <line x1="12" y1="20" x2="12.01" y2="20"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>IoT Vulnerability Analysis</h3>
+                            <p class="project-description">
+                                Explored real-world threats in smart home devices; analyzed security gaps and proposed mitigations for common IoT vulnerabilities.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Device Scanning</li>
+                            <li>Vulnerability Assessment</li>
+                            <li>Security Recommendations</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Threat Modeling</span>
+                        <span class="tech-tag">Cyber Awareness</span>
+                        <span class="tech-tag">Network Analysis</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <button class="btn btn-primary btn-sm">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                            Source
+                        </button>
+                        <button class="btn btn-secondary btn-sm">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                <polyline points="15,3 21,3 21,9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                            Details
+                        </button>
+                    </div>
+
+                    <div class="project-status">
+                        <div class="status-line comment">// Project Status</div>
+                        <div class="status-line">
+                            <span class="keyword">status:</span> 
+                            <span class="string">"Completed"</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon green">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <rect x="7" y="7" width="10" height="10"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>QR-Based Attendance System</h3>
+                            <p class="project-description">
+                                Developed a Python application for smart attendance using QR codes; semi-automated and manually verifiable student project.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>QR Generation</li>
+                            <li>Attendance Tracking</li>
+                            <li>Data Validation</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">QR Codes</span>
+                        <span class="tech-tag">Student Project</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <button class="btn btn-primary btn-sm">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                            Source
+                        </button>
+                        <button class="btn btn-secondary btn-sm">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                <polyline points="15,3 21,3 21,9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                            Details
+                        </button>
+                    </div>
+
+                    <div class="project-status">
+                        <div class="status-line comment">// Project Status</div>
+                        <div class="status-line">
+                            <span class="keyword">status:</span> 
+                            <span class="string">"Completed"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="current-project">
+                <div class="glass-card">
+                    <div class="code-block">
+                        <div class="code-content">
+                            <div class="code-line comment">// Currently Building</div>
+                            <div class="code-line">
+                                <span class="keyword">const</span> 
+                                <span class="variable">nextProject</span> 
+                                <span class="operator">=</span> 
+                                <span class="bracket">{</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">focus:</span> 
+                                <span class="string">"Network Security Lab"</span><span class="operator">,</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">tools:</span> 
+                                <span class="bracket">[</span><span class="string">"Wireshark"</span><span class="operator">,</span> <span class="string">"Nmap"</span><span class="operator">,</span> <span class="string">"Python"</span><span class="bracket">]</span><span class="operator">,</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">goal:</span> 
+                                <span class="string">"Hands-on Learning"</span>
+                            </div>
+                            <div class="code-line"><span class="bracket">}</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Learning Journey</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot current"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="timeline-icon current">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="16,18 22,12 16,6"/>
+                                        <polyline points="8,6 2,12 8,18"/>
+                                    </svg>
+                                </div>
+                                <div class="current-badge">CURRENT</div>
+                            </div>
+                            <h3>Cybersecurity Student</h3>
+                            <div class="timeline-company">Self-Directed Learning</div>
+                            <div class="timeline-meta">
+                                <div class="timeline-period">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    2023 - Present
+                                </div>
+                                <div class="timeline-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                    Remote
+                                </div>
+                            </div>
+                            <p class="timeline-description">
+                                Pursuing cybersecurity education through online courses, hands-on labs, and practical projects.
+                            </p>
+                            <div class="timeline-achievements">
+                                <div class="achievements-header">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="8" r="7"/>
+                                        <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"/>
+                                    </svg>
+                                    Key Accomplishments:
+                                </div>
+                                <ul>
+                                    <li>Earned CompTIA Security+ certification</li>
+                                    <li>Completed IoT security vulnerability research</li>
+                                    <li>Built QR-based attendance system in Python</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot education"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="timeline-icon education">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3>Security+ Certification</h3>
+                            <div class="timeline-company">CompTIA</div>
+                            <div class="timeline-meta">
+                                <div class="timeline-period">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    2024
+                                </div>
+                                <div class="timeline-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                    Online
+                                </div>
+                            </div>
+                            <p class="timeline-description">
+                                Comprehensive study and certification in cybersecurity fundamentals.
+                            </p>
+                            <div class="timeline-achievements">
+                                <div class="achievements-header">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="8" r="7"/>
+                                        <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"/>
+                                    </svg>
+                                    Key Accomplishments:
+                                </div>
+                                <ul>
+                                    <li>Mastered network security concepts</li>
+                                    <li>Learned threat detection techniques</li>
+                                    <li>Studied compliance and risk management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot education"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="timeline-icon education">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="16,18 22,12 16,6"/>
+                                        <polyline points="8,6 2,12 8,18"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3>Python Programming Course</h3>
+                            <div class="timeline-company">Online Learning Platform</div>
+                            <div class="timeline-meta">
+                                <div class="timeline-period">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    2023
+                                </div>
+                                <div class="timeline-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                    Remote
+                                </div>
+                            </div>
+                            <p class="timeline-description">
+                                Focused on Python programming for cybersecurity applications and automation.
+                            </p>
+                            <div class="timeline-achievements">
+                                <div class="achievements-header">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="8" r="7"/>
+                                        <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"/>
+                                    </svg>
+                                    Key Accomplishments:
+                                </div>
+                                <ul>
+                                    <li>Built security automation scripts</li>
+                                    <li>Created network analysis tools</li>
+                                    <li>Developed QR code applications</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot education"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="timeline-icon education">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3>Network Fundamentals Study</h3>
+                            <div class="timeline-company">Self-Study</div>
+                            <div class="timeline-meta">
+                                <div class="timeline-period">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    2023
+                                </div>
+                                <div class="timeline-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                    Home Lab
+                                </div>
+                            </div>
+                            <p class="timeline-description">
+                                Hands-on learning of networking concepts and security analysis tools.
+                            </p>
+                            <div class="timeline-achievements">
+                                <div class="achievements-header">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="8" r="7"/>
+                                        <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"/>
+                                    </svg>
+                                    Key Accomplishments:
+                                </div>
+                                <ul>
+                                    <li>Set up home security lab</li>
+                                    <li>Practiced with Wireshark analysis</li>
+                                    <li>Learned Linux command line basics</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="learning-goals">
+                <h3>2024 Learning Goals</h3>
+                <div class="goals-grid">
+                    <div class="goal-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #00d4ff;">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                        <h4>Advanced Networking</h4>
+                        <p>Deepen network security analysis skills</p>
+                    </div>
+                    <div class="goal-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #00ff41;">
+                            <polyline points="16,18 22,12 16,6"/>
+                            <polyline points="8,6 2,12 8,18"/>
+                        </svg>
+                        <h4>Python Automation</h4>
+                        <p>Build security automation tools</p>
+                    </div>
+                    <div class="goal-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #fbbf24;">
+                            <circle cx="12" cy="8" r="7"/>
+                            <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"/>
+                        </svg>
+                        <h4>Hands-on Labs</h4>
+                        <p>Practice with real-world scenarios</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Establish Connection</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        <span class="terminal-title">contact@secwithharsh.terminal</span>
+                    </div>
+
+                    <div class="terminal-body">
+                        <div class="terminal-output">
+                            <div class="terminal-line green">root@cti-analyst:~$ <span class="gray">initiate_secure_connection</span></div>
+                            <div class="terminal-line blue">Establishing encrypted channel...</div>
+                            <div class="terminal-line green">Connection secured. Ready for CTI collaboration.</div>
+                        </div>
+
+                        <div id="form-status"></div>
+
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label class="form-label">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="12" cy="7" r="4"/>
+                                    </svg>
+                                    Identification:
+                                </label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    placeholder="Enter your name..."
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0 1.1.9 2 2 2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                    Communication Channel:
+                                </label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Enter your email..."
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                                    </svg>
+                                    Intelligence Brief:
+                                </label>
+                                <textarea
+                                    name="message"
+                                    rows="6"
+                                    placeholder="Share your message or collaboration ideas..."
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <button id="submit-btn" type="submit" class="btn btn-primary btn-full">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"/>
+                                    <polygon points="22,2 15,22 11,13 2,9 22,2"/>
+                                </svg>
+                                <span id="submit-text">Execute Transmission</span>
+                            </button>
+                        </form>
+
+                        <div class="terminal-footer">
+                            <div class="terminal-line green">root@cti-analyst:~$ <span class="gray">connection_status</span></div>
+                            <div class="terminal-line blue">Status: Ready for threat intelligence collaboration</div>
+                            <div class="terminal-line yellow">Encryption: AES-256 Enabled</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="glass-card">
+                        <h3>Direct Channels</h3>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon blue">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0 1.1.9 2 2 2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div class="method-content">
+                                    <div class="method-title">Email</div>
+                                    <a href="mailto:contact@secwithharsh.dev" class="method-link">
+                                        contact@secwithharsh.dev
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon green">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                        <circle cx="12" cy="12" r="3"/>
+                                    </svg>
+                                </div>
+                                <div class="method-content">
+                                    <div class="method-title">CTI Collaboration</div>
+                                    <div class="method-description">Open for threat intelligence projects</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3>Network Connections</h3>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                    <rect x="2" y="9" width="4" height="12"/>
+                                    <circle cx="4" cy="4" r="2"/>
+                                </svg>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://twitter.com/your-handle" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                                </svg>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="mailto:contact@secwithharsh.dev" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0 1.1.9 2 2 2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>Email</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="code-block">
+                        <div class="code-content">
+                            <div class="code-line comment">// CTI Analyst Status</div>
+                            <div class="code-line">
+                                <span class="keyword">const</span> 
+                                <span class="variable">availability</span> 
+                                <span class="operator">=</span> 
+                                <span class="bracket">{</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">status:</span> 
+                                <span class="string">"Open for CTI opportunities"</span><span class="operator">,</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">response_time:</span> 
+                                <span class="string">"&lt; 24 hours"</span><span class="operator">,</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">specialization:</span> 
+                                <span class="string">"Threat Intelligence"</span><span class="operator">,</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="property">future_focus:</span> 
+                                <span class="string">"Cloud Security"</span>
+                            </div>
+                            <div class="code-line"><span class="bracket">}</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    © 2024 SecWithHarsh. Analyzing threats, securing the future.
+                </p>
+                <div class="footer-status">
+                    <span class="status-label green">Status:</span> CTI Learning
+                    <span class="status-separator">|</span>
+                    <span class="status-label blue">Focus:</span> Threat Intelligence
+                    <span class="status-separator">|</span>
+                    <span class="status-label green">Future:</span> Cloud Security
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
